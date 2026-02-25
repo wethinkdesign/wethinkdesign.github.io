@@ -77,6 +77,51 @@ const ImageWithPlaceholder = ({ src, alt }) => {
   );
 };
 
+/* ── Counter Component for Stats ── */
+const Counter = ({ end, duration = 2000, suffix = "" }) => {
+  const [count, setCount] = useState(0);
+  const countRef = useRef(null);
+  const [hasStarted, setHasStarted] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting && !hasStarted) {
+          setHasStarted(true);
+        }
+      },
+      { threshold: 0.5 }
+    );
+
+    if (countRef.current) {
+      observer.observe(countRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, [hasStarted]);
+
+  useEffect(() => {
+    if (!hasStarted) return;
+
+    let startTimestamp = null;
+    const step = (timestamp) => {
+      if (!startTimestamp) startTimestamp = timestamp;
+      const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+      setCount(Math.floor(progress * end));
+      if (progress < 1) {
+        window.requestAnimationFrame(step);
+      }
+    };
+    window.requestAnimationFrame(step);
+  }, [hasStarted, end, duration]);
+
+  return (
+    <span ref={countRef}>
+      {count}{suffix}
+    </span>
+  );
+};
+
 export default function Home() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -237,15 +282,21 @@ export default function Home() {
               </p>
               <div className="about-stats">
                 <div>
-                  <div className="about-stat-number">150+</div>
+                  <div className="about-stat-number">
+                    <Counter end={150} suffix="+" />
+                  </div>
                   <div className="about-stat-label">完成案例</div>
                 </div>
                 <div>
-                  <div className="about-stat-number">8+</div>
+                  <div className="about-stat-number">
+                    <Counter end={8} suffix="+" />
+                  </div>
                   <div className="about-stat-label">年設計經驗</div>
                 </div>
                 <div>
-                  <div className="about-stat-number">99%</div>
+                  <div className="about-stat-number">
+                    <Counter end={99} suffix="%" />
+                  </div>
                   <div className="about-stat-label">客戶滿意度</div>
                 </div>
               </div>
