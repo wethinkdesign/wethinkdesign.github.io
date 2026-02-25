@@ -59,23 +59,6 @@ const PhoneIcon = () => (
 );
 
 /* ── Main Page Component ── */
-const ImageWithPlaceholder = ({ src, alt }) => {
-  const [isLoaded, setIsLoaded] = useState(false);
-
-  return (
-    <div className={`img-wrapper ${isLoaded ? "loaded" : "loading"}`}>
-      <div className="skeleton-loader" />
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
-        src={src}
-        alt={alt}
-        loading="lazy"
-        onLoad={() => setIsLoaded(true)}
-        className={isLoaded ? "visible" : "hidden"}
-      />
-    </div>
-  );
-};
 
 /* ── Counter Component for Stats ── */
 const Counter = ({ end, duration = 2000, suffix = "" }) => {
@@ -375,7 +358,8 @@ export default function Home() {
                 onClick={() => openLightbox(idx)}
                 style={{ aspectRatio: "1/1" }}
               >
-                <ImageWithPlaceholder src={item.images[0]} alt={item.title} />
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={item.images[0]} alt={item.title} loading="lazy" />
                 <div className="portfolio-item-overlay">
                   <h3>{item.title}</h3>
                   <span>{item.subtitle}</span>
@@ -556,7 +540,8 @@ export default function Home() {
             ‹
           </button>
           <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>
-            <ImageWithPlaceholder
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
               src={currentImages[lightbox.imageIndex]}
               alt={`${currentProject.title} - ${lightbox.imageIndex + 1}`}
             />
