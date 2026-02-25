@@ -211,7 +211,7 @@ export default function Home() {
         <nav className={`header-nav${mobileMenuOpen ? " open" : ""}`}>
           <a href="#about" onClick={(e) => handleNavClick(e, "about")}>關於我們</a>
           <a href="#services" onClick={(e) => handleNavClick(e, "services")}>服務項目</a>
-          <a href="#portfolio" onClick={(e) => handleNavClick(e, "portfolio")}>作品集</a>
+          <a href="#portfolio" onClick={(e) => handleNavClick(e, "portfolio")}>精選作品</a>
           <a href="#process" onClick={(e) => handleNavClick(e, "process")}>設計流程</a>
           <a href="#contact" onClick={(e) => handleNavClick(e, "contact")}>聯繫我們</a>
         </nav>
@@ -536,7 +536,7 @@ export default function Home() {
             <span className="footer-brand-en">wethink</span>
             <span className="footer-brand-zh">維想設計</span>
           </div>
-          <p className="footer-copy">© 2024 WeThink 維想室內設計工作室. All rights reserved.</p>
+          <p className="footer-copy">© 2026 WeThink 維想室內設計工作室. All rights reserved.</p>
         </div>
       </footer>
 
