@@ -678,11 +678,12 @@ button {
 .process {
   padding: var(--section-padding);
   background: var(--bg-secondary);
+  overflow: hidden;
 }
 
 .process-header {
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 
 .process-header .section-desc {
@@ -692,39 +693,78 @@ button {
 .process-steps {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2px;
+  gap: 40px 30px;
+  position: relative;
 }
 
 .process-step {
   background: var(--bg-card);
-  padding: 48px 36px;
-  text-align: center;
+  padding: 60px 40px;
+  text-align: left;
   position: relative;
+  transition: all 0.5s var(--ease-out);
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.process-step:hover {
+  background: var(--bg-card-hover);
+  transform: translateY(-10px);
+  border-top-color: var(--accent);
 }
 
 .process-step-number {
   font-family: var(--font-display);
-  font-size: 3.5rem;
-  font-weight: 300;
+  font-size: 1.2rem;
+  font-weight: 500;
   color: var(--accent);
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.process-step-number::after {
+  content: "";
+  height: 1px;
+  flex: 1;
+  background: var(--accent);
   opacity: 0.3;
-  line-height: 1;
-  margin-bottom: 24px;
 }
 
 .process-step h3 {
   font-family: var(--font-display);
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 400;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   color: var(--text-primary);
+  line-height: 1.4;
 }
 
 .process-step p {
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   color: var(--text-secondary);
-  line-height: 1.7;
+  line-height: 1.8;
   font-weight: 300;
+}
+
+@media (max-width: 1024px) {
+  .process-steps {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .process-steps {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .process-step {
+    padding: 40px 30px;
+  }
 }
 
 /* ============ CONTACT ============ */
@@ -1139,10 +1179,6 @@ button {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .process-steps {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   .contact-inner {
     grid-template-columns: 1fr;
     gap: 48px;
@@ -1214,10 +1250,6 @@ button {
 
   .portfolio-filters {
     flex-wrap: wrap;
-  }
-
-  .process-steps {
-    grid-template-columns: 1fr;
   }
 
   .contact-form {
