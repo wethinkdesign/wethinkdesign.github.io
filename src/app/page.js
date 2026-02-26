@@ -156,6 +156,18 @@ export default function Home() {
     return () => observer.disconnect();
   }, []);
 
+  /* Lock body scroll when mobile menu is open */
+  useEffect(() => {
+    if (mobileMenuOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [mobileMenuOpen]);
+
   /* Intersection observer for active section highlight */
   useEffect(() => {
     const sections = Array.from(document.querySelectorAll("section[id]"));
@@ -251,7 +263,7 @@ export default function Home() {
   return (
     <>
       {/* ══════ HEADER ══════ */}
-      <header className={`header${scrolled ? " scrolled" : ""}`}>
+      <header className={`header${scrolled ? " scrolled" : ""}${mobileMenuOpen ? " menu-open" : ""}`}>
         <a href="#" className="header-logo" onClick={(e) => handleNavClick(e, "hero")}>
           <span className="header-logo-en">WETHINK</span>
           <span className="header-logo-zh">維想室內裝修設計</span>
