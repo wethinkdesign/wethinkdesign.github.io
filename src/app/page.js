@@ -369,13 +369,13 @@ export default function Home() {
                 </div>
                 <div>
                   <div className="about-stat-number">
-                    <Counter end={8} suffix="+" />
+                    <Counter end={10} suffix="+" />
                   </div>
                   <div className="about-stat-label">年設計經驗</div>
                 </div>
                 <div>
                   <div className="about-stat-number">
-                    <Counter end={99} suffix="%" />
+                    <Counter end={98} suffix="%" />
                   </div>
                   <div className="about-stat-label">客戶滿意度</div>
                 </div>
@@ -432,9 +432,9 @@ export default function Home() {
             <div className="portfolio-filters">
               {[
                 { key: portfolioCategory.All, label: "全部" },
-                { key: portfolioCategory.Residential, label: "住宅" },
-                { key: portfolioCategory.Commercial, label: "商業" },
-                { key: portfolioCategory.Office, label: "辦公" },
+                // { key: portfolioCategory.Residential, label: "住宅" },
+                // { key: portfolioCategory.Commercial, label: "商業" },
+                // { key: portfolioCategory.Office, label: "辦公" },
               ].map((f) => (
                 <button
                   key={f.key}
@@ -560,7 +560,7 @@ export default function Home() {
                     </div>
                     <h4>地址</h4>
                   </div>
-                  <p>新北市汐止區</p>
+                  <p>新北市汐止區新台五路1段93號21樓之6</p>
                 </div>
                 <div className="contact-detail">
                   <div className="contact-detail-header">
@@ -569,7 +569,7 @@ export default function Home() {
                     </div>
                     <h4>電子郵件</h4>
                   </div>
-                  <p>hello@wethink-design.com</p>
+                  <p>wethink.interiors@gmail.com</p>
                 </div>
                 <div className="contact-detail">
                   <div className="contact-detail-header">
@@ -578,7 +578,7 @@ export default function Home() {
                     </div>
                     <h4>電話</h4>
                   </div>
-                  <p>02-1234-5678</p>
+                  <p>0983-750-668</p>
                 </div>
               </div>
 
