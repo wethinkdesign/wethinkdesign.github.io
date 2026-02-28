@@ -30,9 +30,9 @@ const portfolioItems = [
         images: generateImages(1, 13),
     },
     {
-        title: "國賓大苑K宅",
+        title: "國賓大苑",
         subtitle: "K宅",
-        category: portfolioCategory.Commercial,
+        category: portfolioCategory.Residential,
         images: generateImages(2, 21),
     },
     {
@@ -44,7 +44,7 @@ const portfolioItems = [
     {
         title: "中北大",
         subtitle: "W宅",
-        category: portfolioCategory.Office,
+        category: portfolioCategory.Residential,
         images: generateImages(4, 11),
     },
 ];

@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef, useCallback } from "react";
 import Image from "next/image";
-import portfolioItems, {portfolioCategory} from "./portfolioData";
+import portfolioItems, { portfolioCategory } from "./portfolioData";
 
 /* ── SVG Icons ── */
 const ArrowIcon = () => (
@@ -12,30 +12,30 @@ const ArrowIcon = () => (
 );
 
 const InstagramIcon = ({ size = 18 }) => (
-    <Image
-        src="/ig.svg"
-        width={size}
-        height={size}
-        alt="Instagram"
-    />
+  <Image
+    src="/ig.svg"
+    width={size}
+    height={size}
+    alt="Instagram"
+  />
 )
 
 const LineIcon = ({ size = 18 }) => (
-    <Image
-        src="/line.svg"
-        width={size}
-        height={size}
-        alt="LINE"
-    />
+  <Image
+    src="/line.svg"
+    width={size}
+    height={size}
+    alt="LINE"
+  />
 )
 
 const ThreadsIcon = ({ size = 18 }) => (
-    <Image
-        src="/threads.svg"
-        width={size}
-        height={size}
-        alt="Threads"
-    />
+  <Image
+    src="/threads.svg"
+    width={size}
+    height={size}
+    alt="Threads"
+  />
 )
 const LocationIcon = () => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
@@ -120,6 +120,7 @@ export default function Home() {
   const [heroParallax, setHeroParallax] = useState(0);
   const [activeFilter, setActiveFilter] = useState(portfolioCategory.All);
   const [lightbox, setLightbox] = useState({ active: false, projectIndex: 0, imageIndex: 0 });
+  const [imageLoading, setImageLoading] = useState(false);
   const [showBackToTop, setShowBackToTop] = useState(false);
 
   /* Scroll listener for header */
@@ -217,12 +218,17 @@ export default function Home() {
   const currentProject = filteredPortfolio[lightbox.projectIndex];
   const currentImages = currentProject?.images || [];
 
-  const openLightbox = (projectIdx) =>
+  const openLightbox = (projectIdx) => {
+    setImageLoading(true);
     setLightbox({ active: true, projectIndex: projectIdx, imageIndex: 0 });
-  const closeLightbox = () =>
+  };
+  const closeLightbox = () => {
     setLightbox({ active: false, projectIndex: 0, imageIndex: 0 });
+    setImageLoading(false);
+  };
 
   const prevImage = useCallback(() => {
+    setImageLoading(true);
     setLightbox((s) => {
       const project = filteredPortfolio[s.projectIndex];
       const total = project?.images?.length || 1;
@@ -231,6 +237,7 @@ export default function Home() {
   }, [filteredPortfolio]);
 
   const nextImage = useCallback(() => {
+    setImageLoading(true);
     setLightbox((s) => {
       const project = filteredPortfolio[s.projectIndex];
       const total = project?.images?.length || 1;
@@ -600,10 +607,10 @@ export default function Home() {
                   <LineIcon />
                 </a>
                 <a
-                    href="https://www.threads.com/@wethink__design?xmt=AQF0GLyDjonvQjMorESNv8P1_KL-zavrPtQ7sh6Uvf2lXYU"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Threads"
+                  href="https://www.threads.com/@wethink__design?xmt=AQF0GLyDjonvQjMorESNv8P1_KL-zavrPtQ7sh6Uvf2lXYU"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Threads"
                 >
                   <ThreadsIcon />
                 </a>
@@ -650,10 +657,18 @@ export default function Home() {
             ‹
           </button>
           <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>
+            {imageLoading && (
+              <div className="lightbox-placeholder">
+                <div className="lightbox-spinner" />
+              </div>
+            )}
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
+              key={currentImages[lightbox.imageIndex]}
               src={currentImages[lightbox.imageIndex]}
               alt={`${currentProject.title} - ${lightbox.imageIndex + 1}`}
+              style={{ opacity: imageLoading ? 0 : 1, transition: 'opacity 0.3s ease' }}
+              onLoad={() => setImageLoading(false)}
             />
           </div>
 
@@ -673,7 +688,10 @@ export default function Home() {
                   <button
                     key={i}
                     className={`lightbox-dot${i === lightbox.imageIndex ? " active" : ""}`}
-                    onClick={() => setLightbox((s) => ({ ...s, imageIndex: i }))}
+                    onClick={() => {
+                      setImageLoading(true);
+                      setLightbox((s) => ({ ...s, imageIndex: i }));
+                    }}
                     aria-label={`查看第 ${i + 1} 張圖片`}
                   />
                 ))}
