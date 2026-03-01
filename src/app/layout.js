@@ -26,6 +26,7 @@ const SITE_URL = "https://wethinkdesign.github.io";
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
+  applicationName: "WeThink 維想室內裝修設計工作室",
   title: {
     default: "WeThink 維想室內裝修設計工作室 | 台北室內設計 | 住宅・商業・辦公空間設計",
     template: "%s | WeThink 維想室內裝修設計",
@@ -50,6 +51,16 @@ export const metadata = {
   alternates: {
     canonical: SITE_URL,
   },
+  icons: {
+    icon: [
+      { url: "/favicon-48x48.png", type: "image/png", sizes: "48x48" },
+      { url: "/icon-192.png", type: "image/png", sizes: "192x192" },
+      { url: "/icon-512.png", type: "image/png", sizes: "512x512" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
+    shortcut: ["/favicon-48x48.png"],
+  },
+  manifest: "/manifest.webmanifest",
   robots: {
     index: true,
     follow: true,
@@ -97,7 +108,7 @@ export default function RootLayout({ children }) {
     name: "WeThink 維想室內裝修設計工作室",
     alternateName: "Wethink Design Studio",
     image: `${SITE_URL}/cover.jpg`,
-    logo: `${SITE_URL}/icon.jpg`,
+    logo: `${SITE_URL}/icon-512.png`,
     description:
       "WeThink 維想室內裝修設計工作室，以人為本的空間設計，打造有溫度的生活場域。提供住宅設計、商業空間、辦公空間規劃服務。合法立案、具裝修證照。",
     url: SITE_URL,
@@ -318,4 +329,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-

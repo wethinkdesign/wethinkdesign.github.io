@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef, useCallback } from "react";
+import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import portfolioItems, { portfolioCategory } from "./portfolioData";
 
@@ -227,35 +227,49 @@ export default function Home() {
     setImageLoading(false);
   };
 
-  const prevImage = useCallback(() => {
+  const prevImage = () => {
     setImageLoading(true);
     setLightbox((s) => {
       const project = filteredPortfolio[s.projectIndex];
       const total = project?.images?.length || 1;
       return { ...s, imageIndex: (s.imageIndex - 1 + total) % total };
     });
-  }, [filteredPortfolio]);
+  };
 
-  const nextImage = useCallback(() => {
+  const nextImage = () => {
     setImageLoading(true);
     setLightbox((s) => {
       const project = filteredPortfolio[s.projectIndex];
       const total = project?.images?.length || 1;
       return { ...s, imageIndex: (s.imageIndex + 1) % total };
     });
-  }, [filteredPortfolio]);
+  };
 
   /* Keyboard navigation for lightbox */
   useEffect(() => {
     if (!lightbox.active) return;
     const onKey = (e) => {
-      if (e.key === "ArrowLeft") prevImage();
-      else if (e.key === "ArrowRight") nextImage();
-      else if (e.key === "Escape") closeLightbox();
+      if (e.key === "ArrowLeft") {
+        setImageLoading(true);
+        setLightbox((s) => {
+          const project = filteredPortfolio[s.projectIndex];
+          const total = project?.images?.length || 1;
+          return { ...s, imageIndex: (s.imageIndex - 1 + total) % total };
+        });
+      } else if (e.key === "ArrowRight") {
+        setImageLoading(true);
+        setLightbox((s) => {
+          const project = filteredPortfolio[s.projectIndex];
+          const total = project?.images?.length || 1;
+          return { ...s, imageIndex: (s.imageIndex + 1) % total };
+        });
+      } else if (e.key === "Escape") {
+        closeLightbox();
+      }
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [lightbox.active, prevImage, nextImage]);
+  }, [lightbox.active, filteredPortfolio]);
 
   const handleNavClick = (e, id) => {
     e.preventDefault();
