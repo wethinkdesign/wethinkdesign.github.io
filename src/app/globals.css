@@ -1,17 +1,17 @@
 :root {
-  /* Colors */
-  --bg-primary: #0a0a0a;
-  --bg-secondary: #111111;
-  --bg-card: #161616;
-  --bg-card-hover: #1a1a1a;
-  --text-primary: #f5f0eb;
-  --text-secondary: #a89f95;
-  --text-muted: #6b6560;
-  --accent: #c4a882;
-  --accent-light: #d4be9e;
-  --accent-dark: #8a7560;
-  --border: rgba(196, 168, 130, 0.12);
-  --border-hover: rgba(196, 168, 130, 0.25);
+  /* Colors — Light Premium Theme */
+  --bg-primary: #f8f6f2;
+  --bg-secondary: #f0ede8;
+  --bg-card: #ffffff;
+  --bg-card-hover: #faf9f6;
+  --text-primary: #1c1917;
+  --text-secondary: #57534e;
+  --text-muted: #a8a29e;
+  --accent: #8c7a5e;
+  --accent-light: #a99478;
+  --accent-dark: #6a5a42;
+  --border: rgba(28, 25, 23, 0.08);
+  --border-hover: rgba(28, 25, 23, 0.16);
 
   /* Typography */
   --font-display: var(--font-display), serif;
@@ -19,7 +19,7 @@
   --font-chinese: var(--font-chinese), sans-serif;
 
   /* Spacing */
-  --section-padding: 120px 0;
+  --section-padding: 60px 0;
   --container-width: 1280px;
   --container-padding: 0 48px;
 
@@ -125,7 +125,7 @@ button {
 }
 
 .header.scrolled {
-  background: rgba(10, 10, 10, 0.85);
+  background: rgba(248, 246, 242, 0.92);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   padding: 16px 48px;
@@ -205,7 +205,7 @@ button {
   inset-inline: 0;
   bottom: 0;
   height: 1px;
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(0, 0, 0, 0.06);
   overflow: hidden;
 }
 
@@ -277,17 +277,20 @@ button {
 }
 
 .hero-bg .object-cover {
-  filter: brightness(0.35) saturate(0.8);
+  filter: brightness(0.9) saturate(0.85);
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom,
-      rgba(10, 10, 10, 0.3) 0%,
-      rgba(10, 10, 10, 0.1) 40%,
-      rgba(10, 10, 10, 0.6) 80%,
-      rgba(10, 10, 10, 1) 100%);
+  background: linear-gradient(to right,
+      rgba(248, 246, 242, 0.85) 0%,
+      rgba(248, 246, 242, 0.5) 50%,
+      rgba(248, 246, 242, 0.1) 100%),
+    linear-gradient(to bottom,
+      rgba(248, 246, 242, 0.1) 0%,
+      rgba(248, 246, 242, 0.1) 60%,
+      rgba(248, 246, 242, 1) 100%);
   z-index: 1;
 }
 
@@ -325,10 +328,11 @@ button {
 .hero-title {
   font-family: var(--font-display);
   font-size: clamp(2.8rem, 6vw, 5rem);
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.15;
   margin-bottom: 32px;
   color: var(--text-primary);
+  opacity: 0.6;
 }
 
 .hero-title em {
@@ -503,6 +507,8 @@ button {
   padding: 56px 40px;
   transition: all 0.5s var(--ease-out);
   position: relative;
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
   overflow: hidden;
 }
 
@@ -521,6 +527,8 @@ button {
 
 .service-card:hover {
   background: var(--bg-card-hover);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  transform: translateY(-4px);
 }
 
 .service-card:hover::before {
@@ -611,7 +619,7 @@ button {
 
 .portfolio-item:hover .object-cover {
   transform: scale(1.08);
-  filter: brightness(0.6);
+  filter: brightness(0.9);
 }
 
 .portfolio-item-overlay {
@@ -624,8 +632,9 @@ button {
   opacity: 0;
   transition: opacity 0.5s ease;
   background: linear-gradient(to top,
-      rgba(10, 10, 10, 0.8) 0%,
-      rgba(10, 10, 10, 0) 60%);
+      rgba(248, 246, 242, 0.95) 0%,
+      rgba(248, 246, 242, 0.4) 60%,
+      rgba(248, 246, 242, 0) 100%);
 }
 
 .portfolio-item:hover .portfolio-item-overlay {
@@ -637,6 +646,7 @@ button {
   font-size: 1.4rem;
   font-weight: 400;
   margin-bottom: 4px;
+  color: var(--text-primary);
   transform: translateY(16px);
   transition: transform 0.5s var(--ease-out);
 }
@@ -649,7 +659,7 @@ button {
   font-size: 0.75rem;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--accent-dark);
   transform: translateY(16px);
   transition: transform 0.5s var(--ease-out) 0.08s;
 }
@@ -680,7 +690,7 @@ button {
 
 .portfolio-more a:hover {
   border-color: var(--accent);
-  background: rgba(196, 168, 130, 0.08);
+  background: rgba(140, 122, 94, 0.06);
   transform: translateY(-2px);
 }
 
@@ -714,6 +724,10 @@ button {
   position: relative;
   transition: all 0.5s var(--ease-out);
   border-top: 1px solid var(--border);
+  border-left: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -723,6 +737,7 @@ button {
   background: var(--bg-card-hover);
   transform: translateY(-10px);
   border-top-color: var(--accent);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.08);
 }
 
 .process-step-number {
@@ -876,7 +891,7 @@ button {
 .contact-social a:hover {
   border-color: var(--accent);
   color: var(--accent);
-  background: rgba(196, 168, 130, 0.08);
+  background: rgba(140, 122, 94, 0.06);
 }
 
 .contact-social a svg {
@@ -1005,14 +1020,14 @@ button {
   position: fixed;
   inset: 0;
   z-index: 200;
-  background: rgba(0, 0, 0, 0.92);
+  background: rgba(248, 246, 242, 0.96);
   display: flex;
   align-items: center;
   justify-content: center;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.4s ease;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(16px);
 }
 
 .lightbox.active {
@@ -1032,6 +1047,8 @@ button {
   width: auto;
   height: auto;
   object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.12);
 }
 
 .lightbox-placeholder {
@@ -1046,14 +1063,16 @@ button {
 .lightbox-spinner {
   width: 36px;
   height: 36px;
-  border: 2px solid rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(28, 25, 23, 0.1);
   border-top-color: var(--accent);
   border-radius: 50%;
   animation: lightboxSpin 0.8s linear infinite;
 }
 
 @keyframes lightboxSpin {
-  to { transform: rotate(360deg); }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .lightbox-image {
@@ -1065,6 +1084,7 @@ button {
     opacity: 0;
     transform: scale(0.98);
   }
+
   to {
     opacity: 1;
     transform: scale(1);
@@ -1101,7 +1121,9 @@ button {
   align-items: center;
   justify-content: center;
   color: var(--text-secondary);
-  border: 2px solid var(--border);
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
   transition: all 0.3s ease;
   z-index: 210;
 }
@@ -1184,7 +1206,7 @@ button {
 
 .lightbox-dot:hover {
   border-color: var(--accent);
-  background: rgba(196, 168, 130, 0.3);
+  background: rgba(140, 122, 94, 0.3);
 }
 
 .lightbox-dot.active {
@@ -1314,7 +1336,7 @@ button {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(10, 10, 10, 0.98);
+    background: rgba(248, 246, 242, 0.98);
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(30px);
     flex-direction: column;
@@ -1419,8 +1441,8 @@ button {
   .lightbox-nav {
     width: 40px;
     height: 40px;
-    background: rgba(10, 10, 10, 0.5);
-    border-color: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.7);
+    border-color: var(--border);
   }
 
   .lightbox-prev {
