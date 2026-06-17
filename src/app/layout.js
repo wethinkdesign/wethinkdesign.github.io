@@ -1,24 +1,20 @@
-import { Cormorant_Garamond, Inter, Noto_Sans_TC } from "next/font/google";
+import { Cormorant_Garamond, Inter } from "next/font/google";
 import "./globals.css";
+import BackToTop from "@/components/ui/BackToTop";
+import LineCTA from "@/components/ui/LineCTA";
+import { faqs } from "@/config/faq";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600"],
-  variable: "--font-display",
+  variable: "--font-cormorant",
   display: "swap",
 });
 
 const inter = Inter({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600"],
-  variable: "--font-body",
-  display: "swap",
-});
-
-const notoMobile = Noto_Sans_TC({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "700"],
-  variable: "--font-chinese",
+  variable: "--font-inter",
   display: "swap",
 });
 
@@ -246,60 +242,39 @@ export default function RootLayout({ children }) {
       {
         "@type": "ImageObject",
         name: "自由之丘 — C宅",
-        contentUrl: `${SITE_URL}/portfolio/1/01.jpeg`,
+        contentUrl: `${SITE_URL}/portfolio/1/01-2000.webp`,
         description: "自由之丘 C宅 — 住宅空間設計案例",
       },
       {
         "@type": "ImageObject",
         name: "國賓大苑 — K宅",
-        contentUrl: `${SITE_URL}/portfolio/2/01.jpeg`,
-        description: "國賓大苑 K宅 — 商業空間設計案例",
+        contentUrl: `${SITE_URL}/portfolio/2/01-2000.webp`,
+        description: "國賓大苑 K宅 — 住宅空間設計案例",
       },
       {
         "@type": "ImageObject",
         name: "智匯學 — L宅",
-        contentUrl: `${SITE_URL}/portfolio/3/01.jpeg`,
+        contentUrl: `${SITE_URL}/portfolio/3/01-2000.webp`,
         description: "智匯學 L宅 — 住宅空間設計案例",
       },
       {
         "@type": "ImageObject",
         name: "中北大 — W宅",
-        contentUrl: `${SITE_URL}/portfolio/4/01.jpeg`,
-        description: "中北大 W宅 — 辦公空間設計案例",
+        contentUrl: `${SITE_URL}/portfolio/4/01-2000.webp`,
+        description: "中北大 W宅 — 住宅空間設計案例",
       },
     ],
   };
 
-  // 7. FAQPage — 設計流程常見問題
+  // 7. FAQPage — 與頁面可見的 FAQ 區塊共用同一份內容
   const faqPage = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "室內設計的流程是什麼？",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "我們的設計流程包含八個階段：初步設計諮詢、現場實地丈量、規劃討論及工程預算、簽約付款、模擬圖討論、施工圖確認、施工現場服務、完工驗收。每一步都清晰透明，讓您安心放心。",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "WeThink 維想室內設計提供哪些服務？",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "我們提供住宅空間設計（新成屋、中古屋、老屋翻新）、商業空間設計（餐飲、零售、美容等）、以及辦公空間規劃，為您量身定制理想空間。",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "如何聯繫 WeThink 維想室內設計？",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "您可以透過電話 0983-750-668、Email wethink.interiors@gmail.com，或至我們的 Instagram @wethink__design 與 LINE 官方帳號聯繫我們。地址：新北市汐止區新台五路1段93號21樓之6。",
-        },
-      },
-    ],
+    mainEntity: faqs.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
   };
 
   const allJsonLd = [
@@ -313,7 +288,7 @@ export default function RootLayout({ children }) {
   ];
 
   return (
-    <html lang="zh-Hant" className={`${cormorant.variable} ${inter.variable} ${notoMobile.variable}`}>
+    <html lang="zh-Hant" className={`${cormorant.variable} ${inter.variable}`}>
       <head>
         {allJsonLd.map((schema, i) => (
           <script
@@ -325,6 +300,8 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         {children}
+        <LineCTA />
+        <BackToTop />
       </body>
     </html>
   );

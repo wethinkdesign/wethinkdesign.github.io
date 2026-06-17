@@ -1,0 +1,878 @@
+{
+  "images": {
+    "1/01": {
+      "width": 4800,
+      "height": 3600,
+      "blurDataURL": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAACQBACdASoUAA8APu1iqU2ppaOiMAgBMB2JaAC7ACPVjcDOcjzjGfvud2kNtAAA/okShQT8hX1QZ6tJ6c7YFnNvg6N+SPXiKgOmidCvEaYn4kbcNIhZJsA7IvdTv7n/skz7W67gELHprDvJ70eiJiA7ZvTIZ2+Xgd2UgAAA",
+      "avif": {
+        "400": "/portfolio/1/01-400.avif",
+        "800": "/portfolio/1/01-800.avif",
+        "1200": "/portfolio/1/01-1200.avif",
+        "2000": "/portfolio/1/01-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/1/01-400.webp",
+        "800": "/portfolio/1/01-800.webp",
+        "1200": "/portfolio/1/01-1200.webp",
+        "2000": "/portfolio/1/01-2000.webp"
+      }
+    },
+    "1/02": {
+      "width": 4800,
+      "height": 3600,
+      "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZQDKABxM89FfN7WxM4FIAP2+ozwP0uBda+QRkm4eQlhKUIrIJkF9nUVT8iwjr9ynHYUJxUR4S6J3gKLUup+c+QD9T6cd/pze4AAA",
+      "avif": {
+        "400": "/portfolio/1/02-400.avif",
+        "800": "/portfolio/1/02-800.avif",
+        "1200": "/portfolio/1/02-1200.avif",
+        "2000": "/portfolio/1/02-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/1/02-400.webp",
+        "800": "/portfolio/1/02-800.webp",
+        "1200": "/portfolio/1/02-1200.webp",
+        "2000": "/portfolio/1/02-2000.webp"
+      }
+    },
+    "1/03": {
+      "width": 4800,
+      "height": 3599,
+      "blurDataURL": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAADQAwCdASoUAA8APu1iqU2ppaQiMAgBMB2JQBOgA72KbKjbVZ5+SqAAzJNqW/Od93cv5w+x0gjGUOMV+YjtszB//dhi2MfOM62VndqFDJxGFw4uIrhqvC822MKpHaRuZ5cWwxqd7YvJOAAA",
+      "avif": {
+        "400": "/portfolio/1/03-400.avif",
+        "800": "/portfolio/1/03-800.avif",
+        "1200": "/portfolio/1/03-1200.avif",
+        "2000": "/portfolio/1/03-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/1/03-400.webp",
+        "800": "/portfolio/1/03-800.webp",
+        "1200": "/portfolio/1/03-1200.webp",
+        "2000": "/portfolio/1/03-2000.webp"
+      }
+    },
+    "1/04": {
+      "width": 4800,
+      "height": 3595,
+      "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAQBACdASoUAA8APu1iqU2ppaOiMAgBMB2JZwDFCn8Asi+D0eXQTKJYAAD97yQdI+2niySdkvmcapGttI335qT3oXPuk7Fwv7qvpAX5Nz+ijrw2C2IpIDSRUGMGIfYI4AA=",
+      "avif": {
+        "400": "/portfolio/1/04-400.avif",
+        "800": "/portfolio/1/04-800.avif",
+        "1200": "/portfolio/1/04-1200.avif",
+        "2000": "/portfolio/1/04-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/1/04-400.webp",
+        "800": "/portfolio/1/04-800.webp",
+        "1200": "/portfolio/1/04-1200.webp",
+        "2000": "/portfolio/1/04-2000.webp"
+      }
+    },
+    "1/05": {
+      "width": 4800,
+      "height": 3599,
+      "blurDataURL": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAADQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JYwCdABtPEnVug74b4JwA/FqS4EZT0QyPzR/NTe6WrT4o69xZA64QSG8kudLOpEEInThwArbCOTd2XxW43TggM7YCnzx9Av0+bTBX9R8CfAYVCHplH1RSjIRaZc5z0fZZ7uT48VtFemJYaAA=",
+      "avif": {
+        "400": "/portfolio/1/05-400.avif",
+        "800": "/portfolio/1/05-800.avif",
+        "1200": "/portfolio/1/05-1200.avif",
+        "2000": "/portfolio/1/05-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/1/05-400.webp",
+        "800": "/portfolio/1/05-800.webp",
+        "1200": "/portfolio/1/05-1200.webp",
+        "2000": "/portfolio/1/05-2000.webp"
+      }
+    },
+    "1/06": {
+      "width": 4800,
+      "height": 3600,
+      "blurDataURL": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAAAwBACdASoUAA8APu1iqU2ppaOiMAgBMB2JQBOmUABdYyD4DskOphmELgAA/IH8IgZOfkg9CdPSgjoFq03qCMf7i4+9FSxIZZuaqGqGHfPaHWmOVD8yHlbjbEsRXAq8zkNPcdktNy437jb/uSn3pcnqHmwbMN8Z6dDYd3MfLvM+ETG8N+JLTKodOzVQAA==",
+      "avif": {
+        "400": "/portfolio/1/06-400.avif",
+        "800": "/portfolio/1/06-800.avif",
+        "1200": "/portfolio/1/06-1200.avif",
+        "2000": "/portfolio/1/06-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/1/06-400.webp",
+        "800": "/portfolio/1/06-800.webp",
+        "1200": "/portfolio/1/06-1200.webp",
+        "2000": "/portfolio/1/06-2000.webp"
+      }
+    },
+    "1/07": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAADwAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JQBdgAzMJP04jUwQvWlPAAP5fKx841jyHaJhrRDC0ZfyxhLWzXbauZKrnE6G8bQlr4qcCIS0RuFl0JG3vYuB0w7diLCfoK7NXV4IOt/5GAhAujoXBeM3vPB9oZmMhe8ioxTLQ7cEgAA==",
+      "avif": {
+        "400": "/portfolio/1/07-400.avif",
+        "800": "/portfolio/1/07-800.avif",
+        "1200": "/portfolio/1/07-1200.avif",
+        "2000": "/portfolio/1/07-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/1/07-400.webp",
+        "800": "/portfolio/1/07-800.webp",
+        "1200": "/portfolio/1/07-1200.webp",
+        "2000": "/portfolio/1/07-2000.webp"
+      }
+    },
+    "1/08": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADwAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JQAAK8GZM/xji8rs7biIAAPKD331G4UAp45Zvpi2p0+z1p8HRGseX3zFTmH+WrhPsKdIINdFEafgbjS7iG/1ih5oDcZ5FddHqTYtFtGRnL8TPjVdkIXDCAAA=",
+      "avif": {
+        "400": "/portfolio/1/08-400.avif",
+        "800": "/portfolio/1/08-800.avif",
+        "1200": "/portfolio/1/08-1200.avif",
+        "2000": "/portfolio/1/08-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/1/08-400.webp",
+        "800": "/portfolio/1/08-800.webp",
+        "1200": "/portfolio/1/08-1200.webp",
+        "2000": "/portfolio/1/08-2000.webp"
+      }
+    },
+    "1/09": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAABQBACdASoUAAsAPu1iqU2ppaOiMAgBMB2JYgCdMoADgeZrRht6AWprMwAAAP2+ojX6QLq6jMjlbZNF3hDCaRYWb+2LcOhPpS3eLstfE9l+zhRmT4K1JiYYbC5ZfMLz9u3NEacbykLB7I3SRdGoiB+AAAA=",
+      "avif": {
+        "400": "/portfolio/1/09-400.avif",
+        "800": "/portfolio/1/09-800.avif",
+        "1200": "/portfolio/1/09-1200.avif",
+        "2000": "/portfolio/1/09-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/1/09-400.webp",
+        "800": "/portfolio/1/09-800.webp",
+        "1200": "/portfolio/1/09-1200.webp",
+        "2000": "/portfolio/1/09-2000.webp"
+      }
+    },
+    "1/10": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAAAQBACdASoUAAsAPu1iqU2ppaQiMAgBMB2JYwAAYb+YauP2y0sj29F0AAD9vpX1bfwBonbqMDf5x/F1/qlekdIXV8XwBqzCCd0u5OOgxDbJgHwOi59YZwDAsEWronUqHqKtJvKn+YuDfbTvm/5xug8AAAA=",
+      "avif": {
+        "400": "/portfolio/1/10-400.avif",
+        "800": "/portfolio/1/10-800.avif",
+        "1200": "/portfolio/1/10-1200.avif",
+        "2000": "/portfolio/1/10-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/1/10-400.webp",
+        "800": "/portfolio/1/10-800.webp",
+        "1200": "/portfolio/1/10-1200.webp",
+        "2000": "/portfolio/1/10-2000.webp"
+      }
+    },
+    "1/11": {
+      "width": 4800,
+      "height": 3598,
+      "blurDataURL": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAADwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JYgCdABrbgBDpG5hWl7YAAP3Dsw8Qw3ij3E+u6yh54Jx6xt4qovouX0Ws0wVfsZnGYP4b7pzUSpnpTh9UrnRkZr0GUkZ/UlY2EBFIGhsGnuKfqyS65XjehmD+jw5sv4bXE1KH1kiIpzbWTPKNSf5+gAA=",
+      "avif": {
+        "400": "/portfolio/1/11-400.avif",
+        "800": "/portfolio/1/11-800.avif",
+        "1200": "/portfolio/1/11-1200.avif",
+        "2000": "/portfolio/1/11-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/1/11-400.webp",
+        "800": "/portfolio/1/11-800.webp",
+        "1200": "/portfolio/1/11-1200.webp",
+        "2000": "/portfolio/1/11-2000.webp"
+      }
+    },
+    "1/12": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAwBACdASoUAAsAPu1iqU2ppaOiMAgBMB2JaAC06CBiGN1Iw2hJCZUZVAAA3XPg4vcmxtGxYbopykJBT90iiYbNzZJbL6azzj2h6ql6cL/Ka1btqj0VNOQns5RX8HKV4/Om6VizW8x1ePHoFeVSbEdyhIO+MLAA",
+      "avif": {
+        "400": "/portfolio/1/12-400.avif",
+        "800": "/portfolio/1/12-800.avif",
+        "1200": "/portfolio/1/12-1200.avif",
+        "2000": "/portfolio/1/12-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/1/12-400.webp",
+        "800": "/portfolio/1/12-800.webp",
+        "1200": "/portfolio/1/12-1200.webp",
+        "2000": "/portfolio/1/12-2000.webp"
+      }
+    },
+    "1/13": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAQBACdASoUAAsAPu1iqU2ppaOiMAgBMB2JQBdgBHrEVUr56KD2HQLpoADeSbZvY9YHFtg3Ga6bk2U+y7BGIizeK4CrzYqqz4EBMqf7Ocu3ke19kYQ8zlJVzrYr9QWbAsLyf1r2aZUyhN/pyJKglBS/5aXjMYrI/w4JTaeiEgAAAA==",
+      "avif": {
+        "400": "/portfolio/1/13-400.avif",
+        "800": "/portfolio/1/13-800.avif",
+        "1200": "/portfolio/1/13-1200.avif",
+        "2000": "/portfolio/1/13-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/1/13-400.webp",
+        "800": "/portfolio/1/13-800.webp",
+        "1200": "/portfolio/1/13-1200.webp",
+        "2000": "/portfolio/1/13-2000.webp"
+      }
+    },
+    "2/01": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAACQAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JZgCdMoACGX9KtWQAAPx1Cg/6axFeyC7B31tnqxCaVz7iYpyEybidfOUsZXS+Aw0dtIa8qtch3N1T3Sc75o/xVKVTCBsM8Q0FVyB/ToMZA9kFBMkGhyP4AAA=",
+      "avif": {
+        "400": "/portfolio/2/01-400.avif",
+        "800": "/portfolio/2/01-800.avif",
+        "1200": "/portfolio/2/01-1200.avif",
+        "2000": "/portfolio/2/01-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/2/01-400.webp",
+        "800": "/portfolio/2/01-800.webp",
+        "1200": "/portfolio/2/01-1200.webp",
+        "2000": "/portfolio/2/01-2000.webp"
+      }
+    },
+    "2/02": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAADQAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JQBOgAwoFyhUeQybOPwAA/d9HR+AAvqTmcTl0wXyIpskNKjCsXJ8w2SLSfcsReZQxfSHGf7id79pYPqPWjkCQcVjPMF3bqFRxuOW/TPLs8aAA",
+      "avif": {
+        "400": "/portfolio/2/02-400.avif",
+        "800": "/portfolio/2/02-800.avif",
+        "1200": "/portfolio/2/02-1200.avif",
+        "2000": "/portfolio/2/02-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/2/02-400.webp",
+        "800": "/portfolio/2/02-800.webp",
+        "1200": "/portfolio/2/02-1200.webp",
+        "2000": "/portfolio/2/02-2000.webp"
+      }
+    },
+    "2/03": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAACwAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JQBYdg4YKlbgk8bbxoAD+WeRgfupV90F5w8ncX0PaRbQa2Eq8qDa9hL87gtQvDtBxkK8c35ATxpL7SfDcOJUI4k6ba02dWbS1QxAA",
+      "avif": {
+        "400": "/portfolio/2/03-400.avif",
+        "800": "/portfolio/2/03-800.avif",
+        "1200": "/portfolio/2/03-1200.avif",
+        "2000": "/portfolio/2/03-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/2/03-400.webp",
+        "800": "/portfolio/2/03-800.webp",
+        "1200": "/portfolio/2/03-1200.webp",
+        "2000": "/portfolio/2/03-2000.webp"
+      }
+    },
+    "2/04": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JZQC7ABwjRp0YHeF7QLAA/FzAJQVfT1NFKsXEd/twMvHBe71c4BYHKJNNpfLHoOmmBoDT5UF8FPxc0OR6EAAA",
+      "avif": {
+        "400": "/portfolio/2/04-400.avif",
+        "800": "/portfolio/2/04-800.avif",
+        "1200": "/portfolio/2/04-1200.avif",
+        "2000": "/portfolio/2/04-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/2/04-400.webp",
+        "800": "/portfolio/2/04-800.webp",
+        "1200": "/portfolio/2/04-1200.webp",
+        "2000": "/portfolio/2/04-2000.webp"
+      }
+    },
+    "2/05": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADwAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JQBOmUABbdPZtI5sxklEIAMwTSB/wz2xCVkTbNZocf5Zphwq4sds9rK7yC/a9eZHEe+aiAdqW51Cr4HJT5dbFz2S9PuM21sSjB9cs3SzLFDEKYAAAAA==",
+      "avif": {
+        "400": "/portfolio/2/05-400.avif",
+        "800": "/portfolio/2/05-800.avif",
+        "1200": "/portfolio/2/05-1200.avif",
+        "2000": "/portfolio/2/05-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/2/05-400.webp",
+        "800": "/portfolio/2/05-800.webp",
+        "1200": "/portfolio/2/05-1200.webp",
+        "2000": "/portfolio/2/05-2000.webp"
+      }
+    },
+    "2/06": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADQAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JQBWAAxUy8mfJDj52GegA/llk3bnZgxOt/tytmVPr02ezPw5Qsg4vY1mWLQbh5SayBjLD6iS4OiW8mFQL+HYKXKBDXlejxX6ak7rIAAA=",
+      "avif": {
+        "400": "/portfolio/2/06-400.avif",
+        "800": "/portfolio/2/06-800.avif",
+        "1200": "/portfolio/2/06-1200.avif",
+        "2000": "/portfolio/2/06-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/2/06-400.webp",
+        "800": "/portfolio/2/06-800.webp",
+        "1200": "/portfolio/2/06-1200.webp",
+        "2000": "/portfolio/2/06-2000.webp"
+      }
+    },
+    "2/07": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADwAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JYwCdMoAB+4pNiRsagXIAAPc2wFJP5tXGAAPNIKqDvtQQ4OdRGY7rkS8pVW9Qh5Y0a26gVD2Kii6bBoIuHgDZT6IsO+9idh3azb9X8UYyAA==",
+      "avif": {
+        "400": "/portfolio/2/07-400.avif",
+        "800": "/portfolio/2/07-800.avif",
+        "1200": "/portfolio/2/07-1200.avif",
+        "2000": "/portfolio/2/07-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/2/07-400.webp",
+        "800": "/portfolio/2/07-800.webp",
+        "1200": "/portfolio/2/07-1200.webp",
+        "2000": "/portfolio/2/07-2000.webp"
+      }
+    },
+    "2/08": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADwAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JQBWABF3ku5wszpCMC1GAAOJ7cZHfBPY5tu5XYIqZzgaEKf8O4y65rnGbpIeVvI7n6e9/V9pRLLlXOTunmvIiKKqUIOhpNGjz7Bc5uTAL5Rz1nVkAGPwAAAA=",
+      "avif": {
+        "400": "/portfolio/2/08-400.avif",
+        "800": "/portfolio/2/08-800.avif",
+        "1200": "/portfolio/2/08-1200.avif",
+        "2000": "/portfolio/2/08-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/2/08-400.webp",
+        "800": "/portfolio/2/08-800.webp",
+        "1200": "/portfolio/2/08-1200.webp",
+        "2000": "/portfolio/2/08-2000.webp"
+      }
+    },
+    "2/09": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADwAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JZACdACPRlBEYvyDXZy4gAP7ADSK2+TLP1VLErA0s5ip6BkMFP8sTQ07iqQ5uMY8xNjD5V6n+sHYjp9ECnqrSpHeWsydyZ9gGfh+Xe+baY+mAAAA=",
+      "avif": {
+        "400": "/portfolio/2/09-400.avif",
+        "800": "/portfolio/2/09-800.avif",
+        "1200": "/portfolio/2/09-1200.avif",
+        "2000": "/portfolio/2/09-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/2/09-400.webp",
+        "800": "/portfolio/2/09-800.webp",
+        "1200": "/portfolio/2/09-1200.webp",
+        "2000": "/portfolio/2/09-2000.webp"
+      }
+    },
+    "2/10": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAABQBACdASoUAAsAPu1iqU2ppaOiMAgBMB2JYgCdMoADgN6aVhayl8wY67AAAP7aref2n8ZTBDDEEUS9byc3WqRSmT/Kol/z/8CGp0bZqLMKakVsEVxNtUfLkl7Q45kvl1X7iU/rIhHpQw186h3shYxf3hX6nc1cZhlr6PcaLWFPjJj48gAAAA==",
+      "avif": {
+        "400": "/portfolio/2/10-400.avif",
+        "800": "/portfolio/2/10-800.avif",
+        "1200": "/portfolio/2/10-1200.avif",
+        "2000": "/portfolio/2/10-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/2/10-400.webp",
+        "800": "/portfolio/2/10-800.webp",
+        "1200": "/portfolio/2/10-1200.webp",
+        "2000": "/portfolio/2/10-2000.webp"
+      }
+    },
+    "2/11": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAQBACdASoUAAsAPu1iqU2ppaOiMAgBMB2JQBOgAxwXvu8XZ3CP/5IgAAD+5ZOTrqba75Df+1NR65lFqj+S6g6zK5XJk5emMi/gXQb8aQt7Jnw3/sdeyWWKI9mb3X3Il9IYEdQ/NX2UkYeCVoFJBGQRxgAAAA==",
+      "avif": {
+        "400": "/portfolio/2/11-400.avif",
+        "800": "/portfolio/2/11-800.avif",
+        "1200": "/portfolio/2/11-1200.avif",
+        "2000": "/portfolio/2/11-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/2/11-400.webp",
+        "800": "/portfolio/2/11-800.webp",
+        "1200": "/portfolio/2/11-1200.webp",
+        "2000": "/portfolio/2/11-2000.webp"
+      }
+    },
+    "2/12": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAADwAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JQBdl65Aqn9a31miOOgsAAP5hZNthmN4vr4Y/fraodbJAOLKkBqx8FegDWVvNfnFKpfkxpg0nf9U1UIgtn1CNVk2/H1/4bGVHsPFPz4Bwl1P9/yC6lp8jg4BvwBX5l52035UsIgAAAA==",
+      "avif": {
+        "400": "/portfolio/2/12-400.avif",
+        "800": "/portfolio/2/12-800.avif",
+        "1200": "/portfolio/2/12-1200.avif",
+        "2000": "/portfolio/2/12-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/2/12-400.webp",
+        "800": "/portfolio/2/12-800.webp",
+        "1200": "/portfolio/2/12-1200.webp",
+        "2000": "/portfolio/2/12-2000.webp"
+      }
+    },
+    "2/13": {
+      "width": 4800,
+      "height": 2670,
+      "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAwCdASoUAAsAPu1iqU2ppaQiMAgBMB2JYwC7AB4ZLoR/qEn8OcAAAP6+hS1coYcrAeIYGbrBb8MDWnYDVIU7x6uTda/ZDcrGHCOA1I2rv9u7AguUlgAA",
+      "avif": {
+        "400": "/portfolio/2/13-400.avif",
+        "800": "/portfolio/2/13-800.avif",
+        "1200": "/portfolio/2/13-1200.avif",
+        "2000": "/portfolio/2/13-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/2/13-400.webp",
+        "800": "/portfolio/2/13-800.webp",
+        "1200": "/portfolio/2/13-1200.webp",
+        "2000": "/portfolio/2/13-2000.webp"
+      }
+    },
+    "2/14": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JZQCdABXp7OX4o/eVWAAA/dfi24lErnotXRnFgUvdyp2TtAS/w7MeemrWQWjmlINpVC58UuAAAA==",
+      "avif": {
+        "400": "/portfolio/2/14-400.avif",
+        "800": "/portfolio/2/14-800.avif",
+        "1200": "/portfolio/2/14-1200.avif",
+        "2000": "/portfolio/2/14-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/2/14-400.webp",
+        "800": "/portfolio/2/14-800.webp",
+        "1200": "/portfolio/2/14-1200.webp",
+        "2000": "/portfolio/2/14-2000.webp"
+      }
+    },
+    "2/15": {
+      "width": 4800,
+      "height": 2797,
+      "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAQBACdASoUAAwAPu1iqU2ppaQiMAgBMB2JYwCdABupGHHoW0O66eQIAADOPTkzaP+j4R0BOCIoNZO6ToAhnEC91iIDjRg7jqMR+ty3/fUpq/GtFT17MGwb2ly1vp+m00lpUAAA",
+      "avif": {
+        "400": "/portfolio/2/15-400.avif",
+        "800": "/portfolio/2/15-800.avif",
+        "1200": "/portfolio/2/15-1200.avif",
+        "2000": "/portfolio/2/15-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/2/15-400.webp",
+        "800": "/portfolio/2/15-800.webp",
+        "1200": "/portfolio/2/15-1200.webp",
+        "2000": "/portfolio/2/15-2000.webp"
+      }
+    },
+    "2/16": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADwAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JQBOmUABf2p0WhFXvmHoAAPWb5VBGfCD96kAT1QWkrnjJvxXcpF3h/pw5iLsVymBATibZUB0uV0DTa8OeStf7nT9AZIJ9oe37kuD7JR/Go46QAAA=",
+      "avif": {
+        "400": "/portfolio/2/16-400.avif",
+        "800": "/portfolio/2/16-800.avif",
+        "1200": "/portfolio/2/16-1200.avif",
+        "2000": "/portfolio/2/16-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/2/16-400.webp",
+        "800": "/portfolio/2/16-800.webp",
+        "1200": "/portfolio/2/16-1200.webp",
+        "2000": "/portfolio/2/16-2000.webp"
+      }
+    },
+    "2/17": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAQBACdASoUAAsAPu1iqU2ppaOiMAgBMB2JYgCsACHgcxNkPj34bKUAAADOJmzD+g1h7BMaoAkWxxj7o5Qnywv5UAMpYm3ax5yH1Lc1vHggKXvhD6FOhC342215ttnFeJ4KarMSCFfhRcUGAAA=",
+      "avif": {
+        "400": "/portfolio/2/17-400.avif",
+        "800": "/portfolio/2/17-800.avif",
+        "1200": "/portfolio/2/17-1200.avif",
+        "2000": "/portfolio/2/17-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/2/17-400.webp",
+        "800": "/portfolio/2/17-800.webp",
+        "1200": "/portfolio/2/17-1200.webp",
+        "2000": "/portfolio/2/17-2000.webp"
+      }
+    },
+    "2/18": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACwAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JQBOgAhNcp8/h3sDMAAD8p2ksAO5XRNDqOU6Am84CYqF0NjxDZTEIngxQ3/GuArSLKIV+XlsAuF85xZArQdN3xoMaJsgAAAA=",
+      "avif": {
+        "400": "/portfolio/2/18-400.avif",
+        "800": "/portfolio/2/18-800.avif",
+        "1200": "/portfolio/2/18-1200.avif",
+        "2000": "/portfolio/2/18-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/2/18-400.webp",
+        "800": "/portfolio/2/18-800.webp",
+        "1200": "/portfolio/2/18-1200.webp",
+        "2000": "/portfolio/2/18-2000.webp"
+      }
+    },
+    "2/19": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAQBACdASoUAAsAPu1iqU2ppaOiMAgBMB2JQBOmUABNe8s3zpHKcpquvAD4WmoTEnv00lRfru1eiBXtgLMtnZLVDtoWSjqLWE9cYAMIxcPDxnrazWetfPjnhpLo+s58lbMPe5G2p/l3qnIBw12zFA5ymSBIAA==",
+      "avif": {
+        "400": "/portfolio/2/19-400.avif",
+        "800": "/portfolio/2/19-800.avif",
+        "1200": "/portfolio/2/19-1200.avif",
+        "2000": "/portfolio/2/19-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/2/19-400.webp",
+        "800": "/portfolio/2/19-800.webp",
+        "1200": "/portfolio/2/19-1200.webp",
+        "2000": "/portfolio/2/19-2000.webp"
+      }
+    },
+    "2/20": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACQAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JYwCw7BWU5VMySitoAPjlgyuTFEF4hHs+uJqFqgRgOtXwRsTIs6mubwZ3SHCXfxi79NdIAuTdGD127CgAAA==",
+      "avif": {
+        "400": "/portfolio/2/20-400.avif",
+        "800": "/portfolio/2/20-800.avif",
+        "1200": "/portfolio/2/20-1200.avif",
+        "2000": "/portfolio/2/20-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/2/20-400.webp",
+        "800": "/portfolio/2/20-800.webp",
+        "1200": "/portfolio/2/20-1200.webp",
+        "2000": "/portfolio/2/20-2000.webp"
+      }
+    },
+    "3/01": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADwAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JZQC2yBak07HzKYlw4vQAAP3gvVLrd6rdqFYcKBIdj0XXIIVc/UrZSbzUT8bk0f4LTjjg/NdU7njNvyLJEYu3aPxCVvw1Y7M4wAAA",
+      "avif": {
+        "400": "/portfolio/3/01-400.avif",
+        "800": "/portfolio/3/01-800.avif",
+        "1200": "/portfolio/3/01-1200.avif",
+        "2000": "/portfolio/3/01-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/3/01-400.webp",
+        "800": "/portfolio/3/01-800.webp",
+        "1200": "/portfolio/3/01-1200.webp",
+        "2000": "/portfolio/3/01-2000.webp"
+      }
+    },
+    "3/02": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAwBACdASoUAAsAPu1iqU2ppaOiMAgBMB2JZwDCgBmhN9h+VHgn08kTAAAA/f4IhM8uUobWMz9R9EGVHXgS1ZD+vYmQq4nstzRIHaTOGktx8u2hM+J52Q/s+6SA1sdYPHtWhuu68g02UI+CeMaAAA==",
+      "avif": {
+        "400": "/portfolio/3/02-400.avif",
+        "800": "/portfolio/3/02-800.avif",
+        "1200": "/portfolio/3/02-1200.avif",
+        "2000": "/portfolio/3/02-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/3/02-400.webp",
+        "800": "/portfolio/3/02-800.webp",
+        "1200": "/portfolio/3/02-1200.webp",
+        "2000": "/portfolio/3/02-2000.webp"
+      }
+    },
+    "3/03": {
+      "width": 4800,
+      "height": 2638,
+      "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADQAwCdASoUAAsAPu1iqk2ppaQiMAgBMB2JZQCw7BhqxW/hhjXCAAAA98slj1b0JagjHWzX0g9pdTF3J4w0Eo3wFUP+ZpVAGv9odeVSLpsQIEEk0hrC2xMcBcJqp4ciu35RxQAA",
+      "avif": {
+        "400": "/portfolio/3/03-400.avif",
+        "800": "/portfolio/3/03-800.avif",
+        "1200": "/portfolio/3/03-1200.avif",
+        "2000": "/portfolio/3/03-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/3/03-400.webp",
+        "800": "/portfolio/3/03-800.webp",
+        "1200": "/portfolio/3/03-1200.webp",
+        "2000": "/portfolio/3/03-2000.webp"
+      }
+    },
+    "3/04": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAQBACdASoUAAsAPu1iqU2ppaOiMAgBMB2JZwDG9CBS6LOs0lm1ZaqHwAD99mqmEbxp1OT4M71AZ1W9XCC8UDfr6wXD8x3Tvy3fL5HfulFmIhMJx8EK1HQFCp4bwwhUWOmN84aRhfCSK80YAAA=",
+      "avif": {
+        "400": "/portfolio/3/04-400.avif",
+        "800": "/portfolio/3/04-800.avif",
+        "1200": "/portfolio/3/04-1200.avif",
+        "2000": "/portfolio/3/04-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/3/04-400.webp",
+        "800": "/portfolio/3/04-800.webp",
+        "1200": "/portfolio/3/04-1200.webp",
+        "2000": "/portfolio/3/04-2000.webp"
+      }
+    },
+    "4/01": {
+      "width": 6000,
+      "height": 8000,
+      "blurDataURL": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAAAQBgCdASoUABsAPu1sqk8ppiOiMBgIATAdiWcAy6XcAYH/juvhk/CmJJbKvLwGxghYJ8nb0gibJ4AA/ba3Fh7X/Hn8jbp18ao6O36iT95g8Q4ZSEPIwK8sKsTr5iQQsIlspXSVYdo+ni+awYh1hEFXdDap0WbYDm0hVchDiX1LK6pRN5QT6P8Ttm0TqErElPz3pQajALBiBgEyAuKyZEVmR608AAAA",
+      "avif": {
+        "400": "/portfolio/4/01-400.avif",
+        "800": "/portfolio/4/01-800.avif",
+        "1200": "/portfolio/4/01-1200.avif",
+        "2000": "/portfolio/4/01-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/4/01-400.webp",
+        "800": "/portfolio/4/01-800.webp",
+        "1200": "/portfolio/4/01-1200.webp",
+        "2000": "/portfolio/4/01-2000.webp"
+      }
+    },
+    "4/02": {
+      "width": 6000,
+      "height": 8000,
+      "blurDataURL": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAAAQBQCdASoUABsAPu1srFEppaQiqAqpMB2JZQCzgywAh6Z5qbuhW38vqpkSlnnmX7MAAP6TevlgDIdSFEl3tPRG1U8Bazvl5GGYCWI9kmW6ncAw0oVpyLLhdD5Og+LlZagxo8VHw0Qfkyj6nFM4mtvFBDG/o3CdCFtSREUA/wmlEpdqjPPE8cT8re+qVdBt5BCDx6Zakr9LEsp76bDXjvc9pyOwrl6tbhFgECKCHLgAAA==",
+      "avif": {
+        "400": "/portfolio/4/02-400.avif",
+        "800": "/portfolio/4/02-800.avif",
+        "1200": "/portfolio/4/02-1200.avif",
+        "2000": "/portfolio/4/02-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/4/02-400.webp",
+        "800": "/portfolio/4/02-800.webp",
+        "1200": "/portfolio/4/02-1200.webp",
+        "2000": "/portfolio/4/02-2000.webp"
+      }
+    },
+    "4/03": {
+      "width": 6000,
+      "height": 8000,
+      "blurDataURL": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAABQBQCdASoUABsAPu1urlIppiQiqAgBMB2JZQCuHA69kkl/GhytT6QzU7PYiivYmnqPNkAA/nRaVRuVbYob+gFJLA3ptHXyzeOOpnkXoWhxF65zv7dPb9WFt1fhaJRYBvo0/v5alJzB5/xXWD7E49UV0YKkSFSlL3auMBmx5OSQeNGqsLDgp/CBluUEx8gA",
+      "avif": {
+        "400": "/portfolio/4/03-400.avif",
+        "800": "/portfolio/4/03-800.avif",
+        "1200": "/portfolio/4/03-1200.avif",
+        "2000": "/portfolio/4/03-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/4/03-400.webp",
+        "800": "/portfolio/4/03-800.webp",
+        "1200": "/portfolio/4/03-1200.webp",
+        "2000": "/portfolio/4/03-2000.webp"
+      }
+    },
+    "4/04": {
+      "width": 6000,
+      "height": 8000,
+      "blurDataURL": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAADQBACdASoUABsAPu1qsVAppiUiqAqpMB2JZQDCgA2VaE/yKPKMUDcDWe/s/eL/IAD+4i06Lnfa4eIYJts75+ur7sCpN77XkN0lFeA2dh3uAsLn2bnzVQTXWon+hWQ2WPxzd7QeP4aoOhqREq0HPryaJkkfZt8Qu6zOfyPP0Npg9ixyyeBrgAc6qYZHtVPwXhfeWqYC9HnZ+J8i0PJ7utsr1QlYTZh5WAAAAA==",
+      "avif": {
+        "400": "/portfolio/4/04-400.avif",
+        "800": "/portfolio/4/04-800.avif",
+        "1200": "/portfolio/4/04-1200.avif",
+        "2000": "/portfolio/4/04-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/4/04-400.webp",
+        "800": "/portfolio/4/04-800.webp",
+        "1200": "/portfolio/4/04-1200.webp",
+        "2000": "/portfolio/4/04-2000.webp"
+      }
+    },
+    "4/05": {
+      "width": 6000,
+      "height": 8000,
+      "blurDataURL": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAADwBACdASoUABsAPu1srFEppaQiqAqpMB2JZQCCSQRjdAqcUNwRahu24bWOcHhjToAA/sd58yjuZ99KTK+wEqDmu8g6CO7HNxt+NrTfAHMUq77hjb1DeCf33AGNfamImMk2G123hJJ/Bo7E1V0Js0Wt1DKlzOrAujZkH8LEgkrWkbvwtN/ggI88oyeeKWlyZ56Swi6eGGidc8KlAAA=",
+      "avif": {
+        "400": "/portfolio/4/05-400.avif",
+        "800": "/portfolio/4/05-800.avif",
+        "1200": "/portfolio/4/05-1200.avif",
+        "2000": "/portfolio/4/05-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/4/05-400.webp",
+        "800": "/portfolio/4/05-800.webp",
+        "1200": "/portfolio/4/05-1200.webp",
+        "2000": "/portfolio/4/05-2000.webp"
+      }
+    },
+    "4/06": {
+      "width": 6000,
+      "height": 8000,
+      "blurDataURL": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAAAQBQCdASoUABsAPu1sqlEppaOiqAqpMB2JZQCuHAuP6RrcOsVZ4JIjbmAAx2/KAMAAAOEPKfw6VKGt89ka8/DyMNElzCeUcwU1nMHTMJs4pqOuHRBIq+o1Y4bI7TawZvua/S+oO6ifdMQwNCNUTGP2IN+Gny7J5vQuw8KBUvPvWmThKosENU2H8Oeuf1Sriz1mhW68VBGdC2wq/C5rA1VW73s9rqt6j+tf/yPcgAA=",
+      "avif": {
+        "400": "/portfolio/4/06-400.avif",
+        "800": "/portfolio/4/06-800.avif",
+        "1200": "/portfolio/4/06-1200.avif",
+        "2000": "/portfolio/4/06-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/4/06-400.webp",
+        "800": "/portfolio/4/06-800.webp",
+        "1200": "/portfolio/4/06-1200.webp",
+        "2000": "/portfolio/4/06-2000.webp"
+      }
+    },
+    "4/07": {
+      "width": 6000,
+      "height": 8000,
+      "blurDataURL": "data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAACQBQCdASoUABsAPu1mrE+ppSQiMBgIATAdiWcAgAAEBPZNhHgl6D260xFEM1hunVEczFjIAAD+iBdKULAcDe3cgltrXjikHZLiq+2EmtuuEmsjRkscohzENAebQL7WVvl/O8TuzUW/h+398dJkCl0bHR0W+hJ07D9Yp1ZdUdKEbkSJNgns0vqR4fDefzUGX0rFyh3ziTwQPifU/uJrIWhrbtlZDsVk7oqPGh8F/Jyqa7U62zTGptujFEFdJtd0FwV921Kf3r9g7msgAAA=",
+      "avif": {
+        "400": "/portfolio/4/07-400.avif",
+        "800": "/portfolio/4/07-800.avif",
+        "1200": "/portfolio/4/07-1200.avif",
+        "2000": "/portfolio/4/07-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/4/07-400.webp",
+        "800": "/portfolio/4/07-800.webp",
+        "1200": "/portfolio/4/07-1200.webp",
+        "2000": "/portfolio/4/07-2000.webp"
+      }
+    },
+    "4/08": {
+      "width": 6000,
+      "height": 8000,
+      "blurDataURL": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAAAwBQCdASoUABsAPu1ur1KppiQiqAgBMB2JZwDHMBBNgt0+hL9xH6wWVXrXIrLnH6mmgAD+8vX+359WvGnYkoA3nhzkGMIMt5P2mj+m5JrmnQWFX6XEVMwfBhVobBpT2/MD3T/q6lWBrXFDubbXCjathTMtCMx6YxT6FajL2vdj5lantVPMuImOmeGzHEEACjbMwzxCwOr9a/9aKzAoSCAA",
+      "avif": {
+        "400": "/portfolio/4/08-400.avif",
+        "800": "/portfolio/4/08-800.avif",
+        "1200": "/portfolio/4/08-1200.avif",
+        "2000": "/portfolio/4/08-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/4/08-400.webp",
+        "800": "/portfolio/4/08-800.webp",
+        "1200": "/portfolio/4/08-1200.webp",
+        "2000": "/portfolio/4/08-2000.webp"
+      }
+    },
+    "4/09": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAQBACdASoUAAsAPu1iqU2ppaOiMAgBMB2JYwCdACLKC5YqWroSOQEk+AD9mw5K4C3DvxktB5bFslmq4Y1ysPe3Wzg1+1ynP3J1y7Vvnq7ufCm1OWobwz5W0BYF34g5Mbc1/aRgSxVnHpEAAAA=",
+      "avif": {
+        "400": "/portfolio/4/09-400.avif",
+        "800": "/portfolio/4/09-800.avif",
+        "1200": "/portfolio/4/09-1200.avif",
+        "2000": "/portfolio/4/09-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/4/09-400.webp",
+        "800": "/portfolio/4/09-800.webp",
+        "1200": "/portfolio/4/09-1200.webp",
+        "2000": "/portfolio/4/09-2000.webp"
+      }
+    },
+    "4/10": {
+      "width": 4800,
+      "height": 2700,
+      "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADwAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JQBOmUABB8HTQLok6jvgAAPODZfHb4a7yAd0agAfqbqgYMGKQd5nUFoUEArNrlas0fD+lGzWMIsRDQm9Eyk1sl9aOH++CByUwAAAA",
+      "avif": {
+        "400": "/portfolio/4/10-400.avif",
+        "800": "/portfolio/4/10-800.avif",
+        "1200": "/portfolio/4/10-1200.avif",
+        "2000": "/portfolio/4/10-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/4/10-400.webp",
+        "800": "/portfolio/4/10-800.webp",
+        "1200": "/portfolio/4/10-1200.webp",
+        "2000": "/portfolio/4/10-2000.webp"
+      }
+    },
+    "4/11": {
+      "width": 4800,
+      "height": 2699,
+      "blurDataURL": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAQBACdASoUAAsAPu1iqU2ppaOiMAgBMB2JYwCw7Bko7NlFBO45ZJ0UNAD8FJximZnRRaEATWVv6GAIZehsU0PkACpMkrt7imeDnaFZBatC1z9yuvBKaA1SsLNyz1Z7YYHmceirO/YdG1dB8wqg3SZf8NAAAA==",
+      "avif": {
+        "400": "/portfolio/4/11-400.avif",
+        "800": "/portfolio/4/11-800.avif",
+        "1200": "/portfolio/4/11-1200.avif",
+        "2000": "/portfolio/4/11-2000.avif"
+      },
+      "webp": {
+        "400": "/portfolio/4/11-400.webp",
+        "800": "/portfolio/4/11-800.webp",
+        "1200": "/portfolio/4/11-1200.webp",
+        "2000": "/portfolio/4/11-2000.webp"
+      }
+    }
+  },
+  "projects": {
+    "1": [
+      "1/01",
+      "1/02",
+      "1/03",
+      "1/04",
+      "1/05",
+      "1/06",
+      "1/07",
+      "1/08",
+      "1/09",
+      "1/10",
+      "1/11",
+      "1/12",
+      "1/13"
+    ],
+    "2": [
+      "2/01",
+      "2/02",
+      "2/03",
+      "2/04",
+      "2/05",
+      "2/06",
+      "2/07",
+      "2/08",
+      "2/09",
+      "2/10",
+      "2/11",
+      "2/12",
+      "2/13",
+      "2/14",
+      "2/15",
+      "2/16",
+      "2/17",
+      "2/18",
+      "2/19",
+      "2/20"
+    ],
+    "3": [
+      "3/01",
+      "3/02",
+      "3/03",
+      "3/04"
+    ],
+    "4": [
+      "4/01",
+      "4/02",
+      "4/03",
+      "4/04",
+      "4/05",
+      "4/06",
+      "4/07",
+      "4/08",
+      "4/09",
+      "4/10",
+      "4/11"
+    ]
+  }
+}

@@ -34,3 +34,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# 本機文件，不上版控
+docs/
+
+# JetBrains IDE
+.idea/
